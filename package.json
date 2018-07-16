@@ -1,0 +1,24 @@
+{
+    "name": "todo",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@material-ui/core": "^1.2.3",
+        "@material-ui/icons": "^1.1.0",
+        "contentful": "^6.1.1",
+        "material-ui": "^1.0.0-beta.47",
+        "material-ui-icons": "^1.0.0-beta.36",
+        "random-key": "^0.3.2",
+        "react": "^16.4.1",
+        "react-dom": "^16.4.1",
+        "react-scripts": "1.1.4",
+        "react-sortable-dnd": "0.0.6",
+        "react-sortable-hoc": "^0.8.3"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test --env=jsdom",
+        "eject": "react-scripts eject"
+    }
+}

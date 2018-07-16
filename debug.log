@@ -1,0 +1,7 @@
+[0625/162023.701:ERROR:process_info.cc(359)] UncheckedAllocate
+[0625/162050.805:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0625/162050.805:ERROR:exception_snapshot_win.cc(88)] thread ID 7148 not found in process
+[0625/162050.805:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0625/162050.805:ERROR:exception_snapshot_win.cc(88)] thread ID 8544 not found in process
+[0625/162050.852:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0625/162050.852:ERROR:exception_snapshot_win.cc(88)] thread ID 7892 not found in process

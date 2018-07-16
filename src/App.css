@@ -1,0 +1,100 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 80px;
+}
+
+.App-header {
+    background-color: #222;
+    height: 150px;
+    padding: 20px;
+    color: white;
+}
+
+.App-title {
+    font-size: 1.5em;
+}
+
+.App-intro {
+    font-size: large;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+li.done label {
+    color: black;
+    text-decoration: line-through;
+}
+
+.all {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.form {
+    border-style: solid;
+    border-color: white;
+    width: 800px;
+    height: 500px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.todo {
+    justify-content: center;
+    display: flex;
+    padding-top: 10px;
+}
+
+.test {
+    border-style: ridge;
+    margin-top: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+    background-color: yellowgreen;
+}
+
+.values {
+    padding: 5px 70px;
+    width: 710px;
+    display: inline-flex;
+}
+
+.addtask {
+    padding: 5px;
+    background-color: red;
+}
+
+.completed {
+    padding: 0px 10px;
+    background-color: green;
+    color: white;
+    border-color: black;
+}
+
+.style {
+    display: flex;
+    justify-content: space-between;
+}
+
+.delete {
+    background-color: skyblue;
+}
+
+.displayitem {
+    width: 100%
+}
