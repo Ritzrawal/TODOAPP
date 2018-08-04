@@ -20,7 +20,6 @@ export default class AddList extends Component{
         {title:'bread', done:false, id:3}
       ] };
   }
-  //key=localstorageitem name
   //value we want to save for the localstorage key
 
   updateInput(key, value) {
