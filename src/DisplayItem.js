@@ -36,7 +36,7 @@ handleEditingDone(event){
         this.setState({
             editing:false
         });
-        // localStorage.setItem("editing", JSON.stringify(event));
+       
     }
 }
 
