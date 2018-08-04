@@ -26,7 +26,7 @@ this.setState({
     editing:true,
     changedText:this.props.todo.title
 });
-// localStorage.setItem("changedText", JSON.stringify(this.props.todo.title));
+
 
 }
 
