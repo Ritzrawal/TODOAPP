@@ -21,7 +21,6 @@ export default class AddList extends Component{
       ] };
   }
     updateInput(key, value) {
-    // update react state
     this.setState({ [key]: value });
 
     localStorage.setItem(key, value);
