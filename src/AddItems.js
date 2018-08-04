@@ -20,9 +20,7 @@ export default class AddList extends Component{
         {title:'bread', done:false, id:3}
       ] };
   }
-  //value we want to save for the localstorage key
-
-  updateInput(key, value) {
+    updateInput(key, value) {
     // update react state
     this.setState({ [key]: value });
 
